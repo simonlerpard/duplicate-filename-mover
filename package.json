@@ -2,10 +2,15 @@
   "name": "duplicate-filename-mover",
   "version": "0.0.1",
   "description": "Moves files with the same filename (but maybe another extension) from one directory to another.",
-  "main": "index.js",
+  "main": "app.js",
+  "bin": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Simon Lerpard",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "args": "^5.0.1",
+    "pkg": "^4.4.0"
+  }
 }

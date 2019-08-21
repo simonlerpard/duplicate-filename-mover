@@ -1,3 +1,6 @@
+#binaries
+app-*-x64*
+
 # Logs
 logs
 *.log
