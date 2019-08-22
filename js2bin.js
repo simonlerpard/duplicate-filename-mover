@@ -11,3 +11,8 @@ exec([ filename, '--target', 'node10-win-x64', '--output', 'app-win-x64.exe']).t
 }).catch(function(error) {
     console.error(error)
 })
+exec([ filename, '--target', 'node10-linux-x64', '--output', 'app-linux-x64']).then(function() {
+    console.log('Linux build done!')
+}).catch(function(error) {
+    console.error(error)
+})
